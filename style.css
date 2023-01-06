@@ -1,9 +1,40 @@
-.navegacao{
+.nome{
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+    font-size: 30px;
+    font-family: cursive;
+}
+header{
     background-color: black;
 }
-.item-navegacao{
-    color: white;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+nav {
+    position: absolute;
+    top: 05px;
+    right: 0;
+}
+nav li{
     display: inline;
-    margin: 20px 20px 20px 20px;
-    padding: 40px;
+    margin: 0 0 10px;
+    margin-right: 20px;
+}
+nav a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.titulo{
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 05px;
+    color: white;
 }
